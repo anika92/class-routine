@@ -1,4 +1,5 @@
 #include <iostream>
+#include<conio.h>
 
 using namespace std;
 
@@ -16,6 +17,7 @@ int main()
     cout<<"Enter your choice  5 to see routine for THURSDAY \n\n";
     cout<<"Enter your choice  6 to Exit \n\n";
     cin>>index;
+    getch();
     switch(index)
     {
         case 1:
@@ -23,7 +25,7 @@ int main()
         cout<<"2. 11-11.50-CSTE 2103-(IA)\n\n";
         cout<<"3. 12-12.50-HUM 2105-(MBH)\n\n";
 
-
+getch();
         break;
         case 2:
         cout<<"10-10.50_CSTE 2101(MKU)\n\n";
@@ -33,7 +35,7 @@ int main()
         cout<<"4-4.50 CSTE2105(MKU)\n\n";
 
 
-
+getch();
 
         break;
         case 3:
@@ -45,14 +47,14 @@ int main()
         cout<<"4-4.50-CSTE 2105(MKU)\n\n";
 
 
-
+getch();
         break;
         case 4:
         cout<<"9-9.50-CSTE 2107-(AKA)\n\n";
         cout<<"10-11.50-MATH(2105)-(tba)\n\n";
         cout<<"12-12.50-HUM 2105-(MBH)\n\n";
-;
 
+getch();
 
 
         break;
@@ -60,7 +62,7 @@ int main()
          cout<<"9-10.50-DLD LAB(Grp A)\n\n";
         cout<<"11-12.50-DLD LAB(Grp B)\n\n";
 
-
+getch();
 
 
         break;
@@ -68,6 +70,7 @@ int main()
         cout<<"\n\n!!!!!!! Thank you!!!!  !!!!\n\n";
 
     }
+    getch();
     break;
 }
 }
